@@ -24,12 +24,11 @@ def shop():
        
     else:
         print("sorry the item does not exist")
-
-    # print(cart)
 shop()
-print("Helllop")
+
+
+
 def checkout(): 
-    print("heyy") 
     # cart2={}
     if len(cart)>0:
         requesting=int(input("How many would you like to buy? ")) 
@@ -44,23 +43,15 @@ def checkout():
                     tot+=price
                 print(f"{tot} is your total price")
             pricing()
+                #break
                     # break
 
+            
 
 
 
-
-                    # pricing=[]      # looping through the item of the cart
-                    # price=shelf[item]*requesting
-                    # listing_price=[]
-                    # listing_pr/ice.append(price)
-                    
-                 
-                    # shelf[item]+=1
-                    # break
-                   
-                    # shop()
-                   # checkout()
+                  
+            #   /checkout()
         elif answe =='no':
             shop()
             checkout()
