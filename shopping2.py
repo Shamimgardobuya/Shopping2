@@ -58,7 +58,7 @@ def checkout():
             # print(price)
              
         else:
-            print("invalid Option for buying")
+            print("invalid Option")
         # checkout()
             
 checkout()                        
